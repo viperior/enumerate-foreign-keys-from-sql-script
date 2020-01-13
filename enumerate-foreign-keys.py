@@ -19,7 +19,7 @@ with open(input_file_path, 'r') as input_file:
             foreign_key_count += 1
 
             with open(output_file_path, 'a') as output_file:
-                output_file.write(clean_line)
+                output_file.write(clean_line + '\n')
 
         line_count += 1
 
